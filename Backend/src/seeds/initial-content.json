@@ -1,0 +1,479 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "category": "Academic Support",
+      "icon": "📚",
+      "title": "Free Tuition & Learning Support",
+      "description": "After-school academic support for students who need additional guidance in mathematics, science, English and other subjects.",
+      "ageGroup": "Classes 5–10",
+      "duration": "6 Months",
+      "mode": "Offline",
+      "seats": 60,
+      "enrolled": 42,
+      "schedule": "Monday–Friday",
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=85",
+      "features": [
+        "Subject-wise academic guidance",
+        "Weekly assessments",
+        "Homework support",
+        "Parent progress updates"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Technology",
+      "icon": "💻",
+      "title": "Digital Literacy Program",
+      "description": "Practical computer education covering basic computer operations, internet usage, online safety and digital communication.",
+      "ageGroup": "Ages 12–18",
+      "duration": "12 Weeks",
+      "mode": "Hybrid",
+      "seats": 40,
+      "enrolled": 29,
+      "schedule": "Saturday & Sunday",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85",
+      "features": [
+        "Computer fundamentals",
+        "Internet and email",
+        "Online safety",
+        "Practical assignments"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Scholarships",
+      "icon": "🎓",
+      "title": "Student Scholarship Program",
+      "description": "Financial assistance for deserving students who demonstrate academic potential but face financial challenges.",
+      "ageGroup": "School & College",
+      "duration": "Academic Year",
+      "mode": "Financial Support",
+      "seats": 50,
+      "enrolled": 34,
+      "schedule": "Annual Selection",
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=85",
+      "features": [
+        "School or college fee assistance",
+        "Books and learning materials",
+        "Academic mentoring",
+        "Performance review"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Career Development",
+      "icon": "🧭",
+      "title": "Career Guidance & Mentoring",
+      "description": "Helping students understand career opportunities, higher education options and the skills required for their future.",
+      "ageGroup": "Ages 15–22",
+      "duration": "8 Weeks",
+      "mode": "Online & Offline",
+      "seats": 80,
+      "enrolled": 57,
+      "schedule": "Every Saturday",
+      "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1000&q=85",
+      "features": [
+        "Career-awareness sessions",
+        "One-to-one mentoring",
+        "Resume and interview guidance",
+        "Higher-education counselling"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "STEM",
+      "icon": "🤖",
+      "title": "STEM, AI & Robotics Program",
+      "description": "Hands-on learning in science, electronics, robotics, coding and artificial intelligence through practical models.",
+      "ageGroup": "Ages 10–18",
+      "duration": "10 Weeks",
+      "mode": "Offline",
+      "seats": 45,
+      "enrolled": 36,
+      "schedule": "Weekend Program",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=1000&q=85",
+      "features": [
+        "Basic electronics",
+        "Robotics models",
+        "Introduction to coding",
+        "AI-awareness activities"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Skill Development",
+      "icon": "🗣️",
+      "title": "Spoken English & Communication",
+      "description": "Helping students build confidence in spoken English, public speaking, presentations and professional communication.",
+      "ageGroup": "Ages 13–22",
+      "duration": "12 Weeks",
+      "mode": "Hybrid",
+      "seats": 50,
+      "enrolled": 31,
+      "schedule": "Three Days a Week",
+      "image": "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=1000&q=85",
+      "features": [
+        "Spoken English practice",
+        "Group discussions",
+        "Public speaking",
+        "Interview communication"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Skill Development",
+      "icon": "🛠️",
+      "title": "Employability Skills Training",
+      "description": "Workplace-readiness training for college students and young adults preparing for internships and employment.",
+      "ageGroup": "Ages 18–25",
+      "duration": "8 Weeks",
+      "mode": "Hybrid",
+      "seats": 70,
+      "enrolled": 48,
+      "schedule": "Flexible Batches",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=85",
+      "features": [
+        "Resume preparation",
+        "Aptitude and reasoning",
+        "Mock interviews",
+        "Workplace etiquette"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Teacher Development",
+      "icon": "👩‍🏫",
+      "title": "Volunteer Teacher Training",
+      "description": "Training volunteers and community teachers to deliver engaging, inclusive and student-friendly learning sessions.",
+      "ageGroup": "Teachers & Volunteers",
+      "duration": "4 Weeks",
+      "mode": "Offline",
+      "seats": 35,
+      "enrolled": 22,
+      "schedule": "Weekend Sessions",
+      "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1000&q=85",
+      "features": [
+        "Teaching methodologies",
+        "Classroom engagement",
+        "Student assessment",
+        "Child safety awareness"
+      ]
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 1,
+      "category": "Education",
+      "icon": "🎒",
+      "title": "Education for Every Child",
+      "description": "Help children from underserved communities receive school admission support, books, uniforms and quality learning opportunities.",
+      "target": 500000,
+      "raised": 365000,
+      "donors": 184,
+      "students": 120,
+      "daysLeft": 28,
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": 2,
+      "category": "Scholarship",
+      "icon": "🎓",
+      "title": "Sponsor a Student Scholarship",
+      "description": "Support talented students who are at risk of discontinuing their education because of financial difficulties.",
+      "target": 350000,
+      "raised": 217000,
+      "donors": 96,
+      "students": 35,
+      "daysLeft": 42,
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": 3,
+      "category": "Technology",
+      "icon": "💻",
+      "title": "Digital Classroom Initiative",
+      "description": "Help us provide computers, projectors, internet access and digital-learning resources to community education centres.",
+      "target": 750000,
+      "raised": 438000,
+      "donors": 142,
+      "students": 300,
+      "daysLeft": 55,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": 4,
+      "category": "Girls Education",
+      "icon": "👧",
+      "title": "Empower Her Through Education",
+      "description": "Support girls with school fees, hygiene essentials, mentoring and educational resources to continue their studies confidently.",
+      "target": 400000,
+      "raised": 286000,
+      "donors": 127,
+      "students": 80,
+      "daysLeft": 34,
+      "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": 5,
+      "category": "School Kits",
+      "icon": "📚",
+      "title": "School Kit Distribution Drive",
+      "description": "Provide students with school bags, notebooks, stationery, uniforms and other essential classroom materials.",
+      "target": 250000,
+      "raised": 192000,
+      "donors": 215,
+      "students": 500,
+      "daysLeft": 18,
+      "image": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?auto=format&fit=crop&w=1000&q=85"
+    },
+    {
+      "id": 6,
+      "category": "STEM",
+      "icon": "🤖",
+      "title": "STEM & Robotics Learning Lab",
+      "description": "Help establish a practical learning lab where students can explore science, robotics, AI, electronics and innovation.",
+      "target": 900000,
+      "raised": 495000,
+      "donors": 168,
+      "students": 250,
+      "daysLeft": 65,
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=1000&q=85"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "upcoming",
+      "category": "Education",
+      "icon": "🎒",
+      "title": "Back-to-School Support Drive",
+      "description": "Join us in distributing school bags, books, stationery and learning materials to students from underserved communities.",
+      "date": "12 September 2026",
+      "time": "9:00 AM – 1:00 PM",
+      "location": "Hyderabad, Telangana",
+      "capacity": 100,
+      "registered": 68,
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": 2,
+      "type": "upcoming",
+      "category": "Technology",
+      "icon": "💻",
+      "title": "Digital Literacy Workshop",
+      "description": "A practical workshop introducing students to computers, internet safety, digital communication and essential technology skills.",
+      "date": "26 September 2026",
+      "time": "10:00 AM – 3:00 PM",
+      "location": "Blanco Learning Centre",
+      "capacity": 60,
+      "registered": 41,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": 3,
+      "type": "upcoming",
+      "category": "Scholarship",
+      "icon": "🎓",
+      "title": "Scholarship Awareness Session",
+      "description": "Students and parents can learn about scholarship eligibility, required documents, applications and financial support.",
+      "date": "10 October 2026",
+      "time": "11:00 AM – 1:00 PM",
+      "location": "Community Hall, Hyderabad",
+      "capacity": 120,
+      "registered": 74,
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": 4,
+      "type": "upcoming",
+      "category": "Volunteering",
+      "icon": "🤝",
+      "title": "Volunteer Teacher Orientation",
+      "description": "An orientation program for volunteers interested in teaching, mentoring students and supporting community learning programs.",
+      "date": "24 October 2026",
+      "time": "10:00 AM – 2:00 PM",
+      "location": "Blanco Educational Academy",
+      "capacity": 50,
+      "registered": 29,
+      "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": 5,
+      "type": "upcoming",
+      "category": "Career",
+      "icon": "🧭",
+      "title": "Career Guidance & Mentoring Day",
+      "description": "Professionals and mentors will guide students on career options, higher education, communication skills and future planning.",
+      "date": "14 November 2026",
+      "time": "9:30 AM – 4:00 PM",
+      "location": "Hyderabad",
+      "capacity": 150,
+      "registered": 96,
+      "image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": 6,
+      "type": "upcoming",
+      "category": "STEM",
+      "icon": "🤖",
+      "title": "STEM, AI & Robotics Camp",
+      "description": "A fun learning camp featuring basic robotics, AI awareness, science experiments and hands-on technology activities.",
+      "date": "5 December 2026",
+      "time": "9:00 AM – 4:30 PM",
+      "location": "Blanco Innovation Lab",
+      "capacity": 80,
+      "registered": 52,
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": 7,
+      "type": "past",
+      "category": "Community",
+      "icon": "📚",
+      "title": "Community Book Distribution",
+      "description": "Books and educational materials were distributed to children to encourage reading and continuous learning.",
+      "date": "15 August 2026",
+      "time": "Completed",
+      "location": "Hyderabad",
+      "beneficiaries": 250,
+      "image": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": 8,
+      "type": "past",
+      "category": "Environment",
+      "icon": "🌱",
+      "title": "Green School Plantation Drive",
+      "description": "Students and volunteers planted trees and learned about environmental responsibility and sustainable communities.",
+      "date": "12 July 2026",
+      "time": "Completed",
+      "location": "Government School, Hyderabad",
+      "beneficiaries": 180,
+      "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=900&q=85"
+    },
+    {
+      "id": 9,
+      "type": "past",
+      "category": "Health",
+      "icon": "🩺",
+      "title": "Student Health Awareness Camp",
+      "description": "Students received basic health screening, hygiene awareness and guidance on nutrition and personal well-being.",
+      "date": "20 June 2026",
+      "time": "Completed",
+      "location": "Community Learning Centre",
+      "beneficiaries": 210,
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85"
+    }
+  ],
+  "gallery": [
+    {
+      "id": 1,
+      "category": "Education",
+      "title": "Teachers Day Celebration",
+      "description": "Students participating in an interactive classroom learning session.",
+      "location": "Hyderabad",
+      "date": "August 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793689860/32d57a03-54c7-473a-b9bc-db1ce8370bad.png"
+    },
+    {
+      "id": 2,
+      "category": "Digital Learning",
+      "title": "Digital Literacy Workshop",
+      "description": "Students learning computer fundamentals and essential digital skills.",
+      "location": "Blanco Learning Centre",
+      "date": "July 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793689936/bc3f8b5a-f2d7-4c0d-955f-6bcbf929e31c.png"
+    },
+    {
+      "id": 3,
+      "category": "Volunteering",
+      "title": "Volunteers Creating Impact",
+      "description": "Our volunteers supporting students through mentoring and educational activities.",
+      "location": "Hyderabad",
+      "date": "July 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793689999/1fc163fe-efe4-467e-883b-840b1d7ef12c.png"
+    },
+    {
+      "id": 4,
+      "category": "Scholarships",
+      "title": "Scholarship Recognition Day",
+      "description": "Celebrating deserving students who received educational scholarships.",
+      "location": "Community Hall",
+      "date": "June 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690065/d481bbeb-9871-48c4-99a5-ed5d7eb39d57.png"
+    },
+    {
+      "id": 5,
+      "category": "STEM & Robotics",
+      "title": "Young Innovators Workshop",
+      "description": "Students exploring robotics, electronics, AI awareness and practical science.",
+      "location": "Blanco Innovation Lab",
+      "date": "June 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690167/19c9c743-4fc9-4280-9e40-0a54b0d993ae.png"
+    },
+    {
+      "id": 6,
+      "category": "Blue Day & Community",
+      "title": "School Kit Distribution",
+      "description": "Distributing school bags, notebooks, stationery and essential learning materials.",
+      "location": "Government School",
+      "date": "May 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690349/8f1e1dc2-f4a4-47df-b2c4-1e52d96ff1eb.png"
+    },
+    {
+      "id": 7,
+      "category": "Pink Day & Career Mentoring",
+      "title": "Career Mentoring Session",
+      "description": "Professionals guiding students about careers, higher education and future skills.",
+      "location": "Hyderabad",
+      "date": "May 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690442/a319bcce-b3c6-4b06-9013-2978b96dca14.png"
+    },
+    {
+      "id": 8,
+      "category": "Community",
+      "title": "Community Reading Program",
+      "description": "Encouraging children to build reading habits through books and storytelling.",
+      "location": "Community Learning Centre",
+      "date": "April 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690580/8d2a6667-339f-440f-93b1-04f284dc96bf.png"
+    },
+    {
+      "id": 9,
+      "category": "Environment",
+      "title": "Blue Day Celebration",
+      "description": "Students and volunteers and learning about environmental responsibility.",
+      "location": "Hyderabad",
+      "date": "March 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690608/3cdc9e58-57e9-4589-8afb-1d2901b2b91b.png"
+    },
+    {
+      "id": 10,
+      "category": "Health",
+      "title": "Student Health Awareness",
+      "description": "A student health, hygiene, nutrition and well-being awareness program.",
+      "location": "Community Centre",
+      "date": "March 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690644/0e2582fc-e04f-409d-adcf-bd0b32f29cde.png"
+    },
+    {
+      "id": 11,
+      "category": "Digital Learning",
+      "title": "Learning Through Technology",
+      "description": "Students using digital tools to explore creative and interactive learning.",
+      "location": "Blanco Learning Centre",
+      "date": "February 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690639/d3c591bb-7652-40ae-9ecd-258bd3ee1f58.png"
+    },
+    {
+      "id": 12,
+      "category": "Volunteering",
+      "title": "Volunteer Orientation",
+      "description": "Preparing volunteers to teach, mentor and support students effectively.",
+      "location": "Blanco Educational Academy",
+      "date": "February 2026",
+      "image": "https://res.cloudinary.com/nemhlaod/image/upload/v1793690832/7e8c8dc8-c8d0-4ce4-8af1-b2f9ee673489.png"
+    }
+  ]
+}
