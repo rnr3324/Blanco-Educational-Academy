@@ -1,0 +1,108 @@
+.admin-sidebar {
+  box-shadow: 12px 0 34px rgba(3, 27, 66, 0.12);
+}
+
+.admin-topbar-leading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.admin-topbar-brand {
+  display: block;
+  margin-top: 2px;
+  color: #8a9bb0;
+  font-size: 11px;
+}
+
+.admin-menu-toggle,
+.admin-scrim {
+  display: none;
+}
+
+.admin-sidebar nav a:hover {
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.admin-sidebar nav a[aria-current="page"] {
+  box-shadow: inset 3px 0 #e0aa34;
+}
+
+.admin-shell button:focus-visible,
+.admin-shell a:focus-visible {
+  outline: 3px solid #e0aa34;
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .admin-sidebar {
+    width: min(290px, 84vw) !important;
+    transform: translateX(-105%);
+    transition: transform 220ms ease;
+    z-index: 120;
+  }
+
+  .admin-mobile-open .admin-sidebar {
+    transform: translateX(0);
+  }
+
+  .admin-scrim {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 110;
+    border: 0;
+    background: rgba(3, 17, 39, 0.48);
+  }
+
+  .admin-collapse-toggle {
+    display: none;
+  }
+
+  .admin-shell > div:last-child {
+    margin-left: 0 !important;
+  }
+
+  .admin-menu-toggle {
+    display: inline-flex;
+    width: 38px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e4ebf4;
+    border-radius: 10px;
+    background: #fff;
+    color: #06275b;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .admin-topbar-brand {
+    display: none;
+  }
+
+  .admin-shell > div:last-child > div:first-child {
+    height: 60px !important;
+    padding: 0 16px !important;
+  }
+
+  .admin-shell > div:last-child > div:first-child > span:last-child {
+    font-size: 11px !important;
+    text-align: right;
+  }
+
+  .admin-shell > div:last-child > div:last-child {
+    padding: 20px 16px !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .admin-dashboard-two-column {
+    grid-template-columns: 1fr !important;
+  }
+
+  .admin-dashboard-heading {
+    font-size: 23px !important;
+  }
+}
